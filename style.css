@@ -1,0 +1,253 @@
+body{
+	 margin: 0;
+  font-family: "Josefin Sans", sans;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #FFEBF5;
+  text-align: left;
+  background-color: #FFEBF5;
+   
+	  }
+	  
+	  hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: transparent;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 3rem;
+  color:#BC084C;
+ 
+}
+p {
+	padding-top: 5px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #1f1b1c;
+}
+
+	  #container {
+		  padding: 100px, 0px;
+	     width: 1300px;
+		 height: 300px;
+		 margin: 0 auto;
+		 background-color: #FFEBF5;
+		 color: #8A7A80;
+		 }
+		 
+header{
+	background-color: #FDDFE9 ;
+	padding: 30px;
+	margin: 0;
+	}
+	header h2{
+	margin:0;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fddfe9;
+}
+
+nav li {
+  float: right;
+  
+}
+
+nav li a {
+  display: block;
+  color: #BC084C;
+  text-align: center;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 25px;
+  font-style: monospace;
+  font-weight: 8px;
+  line-height: 5px, 15px;
+
+  
+} 
+
+nav li a:hover {
+  background-color: #FFEBF5;
+  text-align: center;
+   float: center;
+    display: block;
+	 padding: 10px 35px;
+}
+footer{
+	margin-bottom: 1;
+	background-color:  #FDDFE9;
+	padding: 0px 5px 0px 60px;
+	margin: 5;
+	
+}
+footer p{
+	 display: inline;
+	 margin-top: 10px;
+  padding: 10px;
+  font-size: 15px;
+  width: 10px;
+ text-align: center; 
+  
+}
+.two-column {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  padding: 60px;
+  background-color: #fff5fc;
+}
+.two-column div {
+  background-color: transparent;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+.three-column {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+ padding: 20px;
+  background-color: #fff5fc;
+ 
+}
+ 
+img {width: 50%}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.three-column div {
+  background-color: transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+ 
+.fa {
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 15px;
+  width: 5px;
+  height: 5px; 
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: #db749f;
+  color: white;
+}
+
+.fa-facebook {
+  background: #9174db;
+  color: white;
+}
+ .fa-google{
+  background: #db8274;
+  color: white;
+}
+.button1 { 
+	 border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 55px;
+   margin-bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block ;
+  font-size: 30px;
+  margin-left:560px;
+  margin-right: 500px;
+  cursor: pointer;
+}
+	a {
+		text-decoration: none;
+		color:white;
+	}
+	
+.button1 {background-color:#870531;
+  color: white;
+  border: 0px white;
+}
+.button1:hover {
+ color: #ca8000;
+  text-decoration: underline;
+}
+	.button2 {
+		 border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left:550px;
+  margin-right: 600px;
+  cursor: pointer;
+  width: 340px;
+}
+	
+.button2 {background-color:#870531;
+  color: white;
+ 
+}
+.button2:hover {
+  background-color: #870531;
+  color: white;
+    text-decoration: underline;
+}
+	.button3 {
+		 border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block ;
+  font-size: 16px;
+ margin-left:420px;
+  margin-right: 600px;
+  cursor: pointer;
+    margin-bottom: 45px;
+	margin-top: 25px;
+  width: 500px;
+  
+}
+	
+.button3 {background-color:#870531;
+
+  color: white;
+  
+}
+.button3:hover {
+  background-color: #870531;
+  color: white;
+  text-decoration: underline;
+}
+ 
+img {
+	     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 500px;
+  
+	  }
